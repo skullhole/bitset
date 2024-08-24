@@ -37,7 +37,3 @@ func len64(x uint64) (n uint) {
 	}
 	return n + uint(len8tab[x])
 }
-
-func leadingZeroes64(v uint64) uint {
-	return 64 - len64(v)
-}
